@@ -24,7 +24,7 @@ cat  $path/$dirname/staging/staging.log-* >> $path/$dirname/staging/export/conca
 
 # レポートをコピー
 # !!!ここはローカルのnginxのパスにする
-mkdir -p $path/-REPORTS/$dirname/production | mkdir -p $path/-REPORTS/$dirname/staging
+# mkdir -p $path/-REPORTS/$dirname/production | mkdir -p $path/-REPORTS/$dirname/staging
 # cp -a $path/$dirname/production/export $path/-REPORTS/$dirname/production/
 # cp -a $path/$dirname/staging/export $path/-REPORTS/$dirname/staging/
 
