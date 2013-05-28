@@ -12,3 +12,8 @@ logs
 results
 
 npm-debug.log
+20130526/
+20130527/
+.DS_Store
+
+node_modules
