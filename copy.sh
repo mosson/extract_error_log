@@ -16,8 +16,10 @@ scp $PRODUCTION_LOG_NGINX $path/$dirname/production
 
 # 解凍
 find . -name '*.gz' -print | xargs gzip -d
-cat  $path/$dirname/production/production.log-* >> $path/$dirname/production/export/concat-production.log-$dirname
-cat  $path/$dirname/staging/staging.log-* >> $path/$dirname/staging/export/concat-staging.log-$dirname
+
+# Concat
+# cat  $path/$dirname/production/production.log-* >> $path/$dirname/production/export/concat-production.log-$dirname
+# cat  $path/$dirname/staging/staging.log-* >> $path/$dirname/staging/export/concat-staging.log-$dirname
 
 #node.jsを実行
 # node $path/regexp.js
