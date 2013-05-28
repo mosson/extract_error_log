@@ -12,6 +12,3 @@ for (var i = 0; i < whichFile.length; i ++) {
 	concat(whichFile[i]);
 	getError(whichFile[i]);
 }
-
-
-
