@@ -17,4 +17,6 @@ npm-debug.log
 backup
 report
 
+conf/conf.yml
+
 node_modules
