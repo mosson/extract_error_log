@@ -1,0 +1,102 @@
+id_14:
+  entry: "Started GET \"/questionnaires/18/questions/new\" for 119.72.193.175 at 2013-05-29 05:32:11 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"18\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-05-29 05:32:11 +0000'
+  error_status: '401'
+  environment: production
+id_15:
+  entry: "Started GET \"/users/sign_in\" for 119.72.193.175 at 2013-05-29 05:32:11 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 05:32:11 +0000'
+  error_status: '401'
+  environment: production
+id_16:
+  entry: "Started GET \"/users/sign_in\" for 119.72.193.175 at 2013-05-29 05:32:44 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 05:32:44 +0000'
+  error_status: '401'
+  environment: production
+id_17:
+  entry: "Started GET \"/users/sign_in\" for 119.72.193.175 at 2013-05-29 05:33:23 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 05:33:23 +0000'
+  error_status: '401'
+  environment: production
+id_18:
+  entry: "Started GET \"/questionnaires/18/questions/new\" for 117.55.68.27 at 2013-05-29 05:33:39 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"18\"}\nCompleted 404 Not Found in 12ms\n\nActiveRecord::RecordNotFound (Couldn't find Questionnaire with id=18 [WHERE `questionnaires`.`inbox_id` = 7]):\n  app/controllers/questions_controller.rb:31:in `new'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-29 05:33:39 +0000'
+  error_status: '404'
+  environment: production
+id_19:
+  entry: "Started GET \"/questionnaires/18/questions/new\" for 117.55.68.27 at 2013-05-29 05:33:41 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"18\"}\nCompleted 404 Not Found in 12ms\n\nActiveRecord::RecordNotFound (Couldn't find Questionnaire with id=18 [WHERE `questionnaires`.`inbox_id` = 7]):\n  app/controllers/questions_controller.rb:31:in `new'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-29 05:33:41 +0000'
+  error_status: '404'
+  environment: production
+id_20:
+  entry: "Started GET \"/questionnaires/18/questions/new\" for 117.55.68.27 at 2013-05-29 05:33:47 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"18\"}\nCompleted 404 Not Found in 11ms\n\nActiveRecord::RecordNotFound (Couldn't find Questionnaire with id=18 [WHERE `questionnaires`.`inbox_id` = 7]):\n  app/controllers/questions_controller.rb:31:in `new'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-29 05:33:47 +0000'
+  error_status: '404'
+  environment: production
+id_21:
+  entry: "Started GET \"/users/sign_in\" for 119.72.193.175 at 2013-05-29 05:34:02 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 05:34:02 +0000'
+  error_status: '401'
+  environment: production
+id_22:
+  entry: "Started GET \"/questionnaires/18/questions/new\" for 65.52.100.214 at 2013-05-29 07:20:51 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"18\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-05-29 07:20:51 +0000'
+  error_status: '401'
+  environment: production
+id_23:
+  entry: "Started GET \"/users/sign_in\" for 65.52.100.214 at 2013-05-29 07:20:52 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 07:20:52 +0000'
+  error_status: '401'
+  environment: production
+id_24:
+  entry: "Started GET \"/users/sign_in\" for 221.112.142.226 at 2013-05-29 07:42:38 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 07:42:38 +0000'
+  error_status: '401'
+  environment: production
+id_25:
+  entry: "Started GET \"/users/sign_in\" for 221.112.142.226 at 2013-05-29 08:07:25 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 08:07:25 +0000'
+  error_status: '401'
+  environment: production
+id_26:
+  entry: "Started POST \"/users\" for 221.112.142.226 at 2013-05-29 08:11:46 +0000\nProcessing by RegistrationsController#create as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"fvlh5+/7WFF+FIHYILaKyUnSkLFyIJO3RvoHDxp9NzU=\", \"plan\"=>\"professional\", \"user\"=>{\"name\"=>\"f\x1f4c\0\0d:\x1cg\x1f\"e-\x10\", \"email\"=>\"a.shiba@4digit.jp\", \"password\"=>\"[FILTERED]\", \"password_confirmation\"=>\"[FILTERED]\", \"job_domain_id\"=>\"10\", \"coupon\"=>\"\", \"stripe_token\"=>\"tok_1uuVebFRFqb3Z3\"}}\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 08:11:46 +0000'
+  error_status: '401'
+  environment: production
+id_27:
+  entry: "Started GET \"/users/sign_in\" for 114.182.86.118 at 2013-05-29 15:10:29 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-29 15:10:29 +0000'
+  error_status: '401'
+  environment: production
+id_28:
+  entry: "Started GET \"/users/sign_in\" for 221.112.142.226 at 2013-05-30 01:59:59 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-30 01:59:59 +0000'
+  error_status: '401'
+  environment: production
+id_29:
+  entry: "Started GET \"/questionnaires/26/questions/new\" for 220.111.135.199 at 2013-05-30 02:07:08 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"26\"}\nCompleted 401 Unauthorized in 4ms\n"
+  timestamp:
+    - '2013-05-30 02:07:08 +0000'
+  error_status: '401'
+  environment: production
+id_30:
+  entry: "Started GET \"/users/sign_in\" for 220.111.135.199 at 2013-05-30 02:07:08 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-30 02:07:08 +0000'
+  error_status: '401'
+  environment: production

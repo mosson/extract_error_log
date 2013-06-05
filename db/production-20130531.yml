@@ -1,0 +1,18 @@
+id_31:
+  entry: "Started GET \"/inboxes/3/use\" for 221.112.142.226 at 2013-05-30 04:52:34 +0000\nProcessing by InboxesController#use as HTML\n  Parameters: {\"id\"=>\"3\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-05-30 04:52:34 +0000'
+  error_status: '401'
+  environment: production
+id_32:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.243 at 2013-05-31 02:07:52 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 02:07:52 +0000'
+  error_status: '401'
+  environment: production
+id_33:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.243 at 2013-05-31 02:08:01 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 02:08:01 +0000'
+  error_status: '401'
+  environment: production

@@ -1,0 +1,228 @@
+id_34:
+  entry: "Started GET \"/collectors/96/preview/0\" for 61.119.89.244 at 2013-05-31 03:41:41 +0000\nProcessing by CollectorsController#preview as HTML\n  Parameters: {\"id\"=>\"96\", \"index\"=>\"0\"}\nCompleted 401 Unauthorized in 8ms\n"
+  timestamp:
+    - '2013-05-31 03:41:41 +0000'
+  error_status: '401'
+  environment: production
+id_35:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:41:41 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:41:41 +0000'
+  error_status: '401'
+  environment: production
+id_36:
+  entry: "Started GET \"/collectors/96/preview/0\" for 61.119.89.244 at 2013-05-31 03:42:07 +0000\nProcessing by CollectorsController#preview as HTML\n  Parameters: {\"id\"=>\"96\", \"index\"=>\"0\"}\nCompleted 401 Unauthorized in 8ms\n"
+  timestamp:
+    - '2013-05-31 03:42:07 +0000'
+  error_status: '401'
+  environment: production
+id_37:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:07 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:07 +0000'
+  error_status: '401'
+  environment: production
+id_38:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:13 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:13 +0000'
+  error_status: '401'
+  environment: production
+id_39:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:23 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:23 +0000'
+  error_status: '401'
+  environment: production
+id_40:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:28 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)\nRedirected to https://creativesurvey.com/collectors/96/preview/0\nCompleted 302 Found in 2723ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:28 +0000'
+  error_status: '401'
+  environment: production
+id_41:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:34 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:34 +0000'
+  error_status: '401'
+  environment: production
+id_42:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:34 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:34 +0000'
+  error_status: '401'
+  environment: production
+id_43:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:42:40 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:42:40 +0000'
+  error_status: '401'
+  environment: production
+id_44:
+  entry: "Started GET \"/collectors/96/preview/0\" for 61.119.89.244 at 2013-05-31 03:45:58 +0000\nProcessing by CollectorsController#preview as HTML\n  Parameters: {\"id\"=>\"96\", \"index\"=>\"0\"}\nCompleted 401 Unauthorized in 8ms\n"
+  timestamp:
+    - '2013-05-31 03:45:58 +0000'
+  error_status: '401'
+  environment: production
+id_45:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:45:58 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)\nRedirected to https://creativesurvey.com/questions/1078/delete\nCompleted 302 Found in 82ms (ActiveRecord: 54.7ms)\n"
+  timestamp:
+    - '2013-05-31 03:45:58 +0000'
+  error_status: '401'
+  environment: production
+id_46:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:46:22 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:46:22 +0000'
+  error_status: '401'
+  environment: production
+id_47:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 03:46:25 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 03:46:25 +0000'
+  error_status: '401'
+  environment: production
+id_48:
+  entry: "Started GET \"/questions/1079/delete\" for 221.112.142.226 at 2013-05-31 03:55:55 +0000\nProcessing by QuestionsController#delete as HTML\n  Parameters: {\"id\"=>\"1079\"}\nCompleted 404 Not Found in 12ms\n\nActiveRecord::RecordNotFound (Couldn't find Question with id=1079 [WHERE `questions`.`inbox_id` = 13]):\n  app/controllers/questions_controller.rb:179:in `delete'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 03:55:55 +0000'
+  error_status: '404'
+  environment: production
+id_49:
+  entry: "Started GET \"/questions/1079/delete\" for 221.112.142.226 at 2013-05-31 03:55:59 +0000\nProcessing by QuestionsController#delete as HTML\n  Parameters: {\"id\"=>\"1079\"}\nCompleted 404 Not Found in 12ms\n\nActiveRecord::RecordNotFound (Couldn't find Question with id=1079 [WHERE `questions`.`inbox_id` = 13]):\n  app/controllers/questions_controller.rb:179:in `delete'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 03:55:59 +0000'
+  error_status: '404'
+  environment: production
+id_50:
+  entry: "Started GET \"/questions/1079/delete\" for 221.112.142.226 at 2013-05-31 03:56:01 +0000\nProcessing by QuestionsController#delete as HTML\n  Parameters: {\"id\"=>\"1079\"}\nCompleted 404 Not Found in 13ms\n\nActiveRecord::RecordNotFound (Couldn't find Question with id=1079 [WHERE `questions`.`inbox_id` = 13]):\n  app/controllers/questions_controller.rb:179:in `delete'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 03:56:01 +0000'
+  error_status: '404'
+  environment: production
+id_51:
+  entry: "Started PUT \"/questionnaires/94\" for 221.112.142.226 at 2013-05-31 03:56:04 +0000\nProcessing by QuestionnairesController#update as JS\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"fvlh5+/7WFF+FIHYILaKyUnSkLFyIJO3RvoHDxp9NzU=\", \"questionnaire\"=>{\"questions_attributes\"=>{\"0\"=>{\"id\"=>\"1079\", \"order_index\"=>\"0\"}, \"1\"=>{\"id\"=>\"1080\", \"order_index\"=>\"1\"}}}, \"id\"=>\"94\"}\nCompleted 404 Not Found in 25ms\n\nActiveRecord::RecordNotFound (Couldn't find Question with ID=1079 for Questionnaire with ID=94):\n  app/controllers/questionnaires_controller.rb:9:in `block in update'\n  app/controllers/questionnaires_controller.rb:8:in `update'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 03:56:04 +0000'
+  error_status: '404'
+  environment: production
+id_52:
+  entry: "Started GET \"/questions/1079/edit\" for 221.112.142.226 at 2013-05-31 03:56:06 +0000\nProcessing by QuestionsController#edit as HTML\n  Parameters: {\"id\"=>\"1079\"}\nCompleted 404 Not Found in 11ms\n\nActiveRecord::RecordNotFound (Couldn't find Question with id=1079 [WHERE `questions`.`inbox_id` = 13]):\n  app/controllers/questions_controller.rb:49:in `edit'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 03:56:06 +0000'
+  error_status: '404'
+  environment: production
+id_53:
+  entry: "Started GET \"/subscribe_plan?plan=business\" for 61.119.89.243 at 2013-05-31 04:09:29 +0000\nProcessing by RegistrationsController#subscribe_plan as HTML\n  Parameters: {\"plan\"=>\"business\"}\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 04:09:29 +0000'
+  error_status: '401'
+  environment: production
+id_54:
+  entry: "Started GET \"/questionnaires/93/questions/new\" for 61.119.89.244 at 2013-05-31 04:21:07 +0000\nProcessing by QuestionsController#new as HTML\n  Parameters: {\"questionnaire_id\"=>\"93\"}\nCompleted 404 Not Found in 38ms\n\nActiveRecord::RecordNotFound (Couldn't find Questionnaire with id=93 [WHERE `questionnaires`.`inbox_id` = 9]):\n  app/controllers/questions_controller.rb:31:in `new'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 04:21:07 +0000'
+  error_status: '404'
+  environment: production
+id_55:
+  entry: "Started GET \"/segments/93/question/1071\" for 61.119.89.244 at 2013-05-31 04:21:42 +0000\nProcessing by SegmentsController#question as HTML\n  Parameters: {\"id\"=>\"93\", \"question_id\"=>\"1071\"}\n  Rendered segments/_question.html.haml (5.8ms)\n  Rendered segments/_question.html.haml (5.6ms)\n  Rendered segments/_question.html.haml (5.3ms)\n  Rendered segments/_question.html.haml (5.4ms)\n  Rendered segments/_question.html.haml (5.4ms)\n  Rendered segments/_question.html.haml (5.4ms)\n  Rendered segments/_question.html.haml (5.4ms)\n  Rendered segments/question/answer_types/_answer_type7.html.haml (23.8ms)\n  Rendered segments/question.html.haml within layouts/survey (76.9ms)\nCompleted 500 Internal Server Error in 154ms\n\nActionView::Template::Error (undefined method `*' for nil:NilClass):\n    61:                 %li\n    62:                   = sub_item.safe_sentence\n    63: \n    64:             .tip{style: \"left: #{sprintf(\"%.02f\", @averages[answer_item.id] * 100)}%\"}\n    65:               .inner\n    66:                 = sprintf(\"%.02f\", @averages[answer_item.id] * 100)\n    67: \n  app/views/segments/question/answer_types/_answer_type7.html.haml:64:in `block in _app_views_segments_question_answer_types__answer_type__html_haml___2154334353775239265_108482680'\n  app/views/segments/question/answer_types/_answer_type7.html.haml:18:in `_app_views_segments_question_answer_types__answer_type__html_haml___2154334353775239265_108482680'\n  app/views/segments/question.html.haml:50:in `block in _app_views_segments_question_html_haml__2769959346405738594_75534260'\n  app/views/segments/question.html.haml:4:in `_app_views_segments_question_html_haml__2769959346405738594_75534260'\n  app/controllers/concerns/segments_question_controls.rb:79:in `question'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 04:21:42 +0000'
+  error_status: '500'
+  environment: production
+id_56:
+  entry: "Started GET \"/segments/93/question/1071\" for 61.119.89.244 at 2013-05-31 04:22:28 +0000\nProcessing by SegmentsController#question as HTML\n  Parameters: {\"id\"=>\"93\", \"question_id\"=>\"1071\"}\n  Rendered segments/_question.html.haml (5.9ms)\n  Rendered segments/_question.html.haml (5.6ms)\n  Rendered segments/_question.html.haml (5.5ms)\n  Rendered segments/_question.html.haml (5.5ms)\n  Rendered segments/_question.html.haml (5.5ms)\n  Rendered segments/_question.html.haml (5.5ms)\n  Rendered segments/_question.html.haml (5.5ms)\n  Rendered segments/question/answer_types/_answer_type7.html.haml (24.1ms)\n  Rendered segments/question.html.haml within layouts/survey (77.9ms)\nCompleted 500 Internal Server Error in 155ms\n\nActionView::Template::Error (undefined method `*' for nil:NilClass):\n    61:                 %li\n    62:                   = sub_item.safe_sentence\n    63: \n    64:             .tip{style: \"left: #{sprintf(\"%.02f\", @averages[answer_item.id] * 100)}%\"}\n    65:               .inner\n    66:                 = sprintf(\"%.02f\", @averages[answer_item.id] * 100)\n    67: \n  app/views/segments/question/answer_types/_answer_type7.html.haml:64:in `block in _app_views_segments_question_answer_types__answer_type__html_haml___2154334353775239265_79517220'\n  app/views/segments/question/answer_types/_answer_type7.html.haml:18:in `_app_views_segments_question_answer_types__answer_type__html_haml___2154334353775239265_79517220'\n  app/views/segments/question.html.haml:50:in `block in _app_views_segments_question_html_haml__2769959346405738594_72710720'\n  app/views/segments/question.html.haml:4:in `_app_views_segments_question_html_haml__2769959346405738594_72710720'\n  app/controllers/concerns/segments_question_controls.rb:79:in `question'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 04:22:28 +0000'
+  error_status: '500'
+  environment: production
+id_57:
+  entry: "Started PUT \"/designs/93\" for 61.119.89.244 at 2013-05-31 06:21:25 +0000\nProcessing by DesignsController#update as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"2xn13jthEByJM64Enhkl2R1kI5ZuQQmzgPfCu04zIfk=\", \"design\"=>{\"layout_insole\"=>\"\", \"layout_alpha\"=>\"0.5\", \"text_color\"=>\"#222222\", \"strong_color\"=>\"#008c83\", \"creative_id\"=>\"0\", \"background_repeat\"=>\"0\", \"background_color\"=>\"#ffebc0\", \"background_position_x\"=>\"left\", \"background_position_y\"=>\"top\", \"text_align\"=>\"left\", \"layout_position\"=>\"center\"}, \"current\"=>\"background\", \"destination\"=>\"https://creativesurvey.com/designs/93/theme\", \"id\"=>\"93\"}\nWARNING: Can't verify CSRF token authenticity\nCompleted 401 Unauthorized in 2ms\n"
+  timestamp:
+    - '2013-05-31 06:21:25 +0000'
+  error_status: '401'
+  environment: production
+id_58:
+  entry: "Started GET \"/segments/53/question/595\" for 221.112.142.226 at 2013-05-31 06:49:47 +0000\nProcessing by SegmentsController#question as HTML\n  Parameters: {\"id\"=>\"53\", \"question_id\"=>\"595\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-05-31 06:49:47 +0000'
+  error_status: '401'
+  environment: production
+id_59:
+  entry: "Started GET \"/users/sign_in\" for 221.112.142.226 at 2013-05-31 06:49:47 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 06:49:47 +0000'
+  error_status: '401'
+  environment: production
+id_60:
+  entry: "Started POST \"/users/sign_in\" for 221.112.142.226 at 2013-05-31 06:50:06 +0000\nProcessing by SessionsController#create as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"rFNWOCa27b53UMnbNevQzXDS8VbtRS9bM/KImMVuj8o=\", \"user\"=>{\"email\"=>\"a.munakata@4digit.jp\", \"password\"=>\"[FILTERED]\", \"remember_me\"=>\"1\"}, \"commit\"=>\"Sign in\"}\nCompleted 401 Unauthorized in 8ms\nProcessing by SessionsController#new as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"rFNWOCa27b53UMnbNevQzXDS8VbtRS9bM/KImMVuj8o=\", \"user\"=>{\"email\"=>\"a.munakata@4digit.jp\", \"password\"=>\"[FILTERED]\", \"remember_me\"=>\"1\"}, \"commit\"=>\"Sign in\"}\n  Rendered devise/shared/_links.haml (0.8ms)\n  Rendered devise/sessions/new.html.haml within layouts/single (5.1ms)\nCompleted 200 OK in 257ms (Views: 7.6ms | ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 06:50:06 +0000'
+  error_status: '401'
+  environment: production
+id_61:
+  entry: "Started POST \"/users/sign_in\" for 221.112.142.226 at 2013-05-31 06:50:12 +0000\nProcessing by SessionsController#create as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"rFNWOCa27b53UMnbNevQzXDS8VbtRS9bM/KImMVuj8o=\", \"user\"=>{\"email\"=>\"a.munakata@4digit.jp\", \"password\"=>\"[FILTERED]\", \"remember_me\"=>\"1\"}, \"commit\"=>\"Sign in\"}\nCompleted 401 Unauthorized in 201ms\nProcessing by SessionsController#new as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"rFNWOCa27b53UMnbNevQzXDS8VbtRS9bM/KImMVuj8o=\", \"user\"=>{\"email\"=>\"a.munakata@4digit.jp\", \"password\"=>\"[FILTERED]\", \"remember_me\"=>\"1\"}, \"commit\"=>\"Sign in\"}\n  Rendered devise/shared/_links.haml (4.5ms)\n  Rendered devise/sessions/new.html.haml within layouts/single (14.0ms)\nCompleted 200 OK in 322ms (Views: 50.0ms | ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 06:50:12 +0000'
+  error_status: '401'
+  environment: production
+id_62:
+  entry: "Started GET \"/collectors/97/preview/0\" for 221.112.142.226 at 2013-05-31 09:23:34 +0000\nProcessing by CollectorsController#preview as HTML\n  Parameters: {\"id\"=>\"97\", \"index\"=>\"0\"}\nCompleted 401 Unauthorized in 8ms\n"
+  timestamp:
+    - '2013-05-31 09:23:34 +0000'
+  error_status: '401'
+  environment: production
+id_63:
+  entry: "Started GET \"/users/sign_in\" for 221.112.142.226 at 2013-05-31 09:23:34 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 09:23:34 +0000'
+  error_status: '401'
+  environment: production
+id_64:
+  entry: "Started GET \"/users/sign_up?plan=professional\" for 221.112.142.226 at 2013-05-31 09:39:10 +0000\nProcessing by RegistrationsController#new as HTML\n  Parameters: {\"plan\"=>\"professional\"}\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 09:39:10 +0000'
+  error_status: '401'
+  environment: production
+id_65:
+  entry: "Started DELETE \"/users/sign_out\" for 61.119.89.244 at 2013-05-31 09:41:55 +0000\nProcessing by SessionsController#destroy as HTML\n  Parameters: {\"authenticity_token\"=>\"bCxXE20YZJ2kFpC2Yh15e4Gv0tgXQSJxO/tax6deubI=\"}\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 09:41:55 +0000'
+  error_status: '401'
+  environment: production
+id_66:
+  entry: "Started POST \"/users\" for 221.112.142.226 at 2013-05-31 09:46:42 +0000\nProcessing by RegistrationsController#create as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"AHQTxqcCHWzfN5RfzBLF4mIYiI4OmDulyO8Tbctkzxg=\", \"plan\"=>\"professional\", \"user\"=>{\"name\"=>\"Shinichiro Ogaki\", \"email\"=>\"s.ogaki@4digit.jp\", \"password\"=>\"[FILTERED]\", \"password_confirmation\"=>\"[FILTERED]\", \"job_domain_id\"=>\"1\", \"coupon\"=>\"\", \"stripe_token\"=>\"tok_1vgUUFdL8O0l55\"}}\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 09:46:42 +0000'
+  error_status: '401'
+  environment: production
+id_67:
+  entry: "Started GET \"/surveys/93/segments\" for 61.119.89.244 at 2013-05-31 10:01:35 +0000\nProcessing by SegmentsController#index as HTML\n  Parameters: {\"survey_id\"=>\"93\"}\nCompleted 401 Unauthorized in 5ms\n"
+  timestamp:
+    - '2013-05-31 10:01:35 +0000'
+  error_status: '401'
+  environment: production
+id_68:
+  entry: "Started GET \"/users/sign_in\" for 61.119.89.244 at 2013-05-31 10:01:35 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-05-31 10:01:35 +0000'
+  error_status: '401'
+  environment: production
+id_69:
+  entry: "Started GET \"/collectors/96/preview/0\" for 61.119.89.244 at 2013-05-31 10:16:37 +0000\nProcessing by CollectorsController#preview as HTML\n  Parameters: {\"id\"=>\"96\", \"index\"=>\"0\"}\nCompleted 401 Unauthorized in 8ms\n"
+  timestamp:
+    - '2013-05-31 10:16:37 +0000'
+  error_status: '401'
+  environment: production
+id_70:
+  entry: "Started GET \"/inboxes/13/surveys\" for 221.112.142.226 at 2013-05-31 10:32:28 +0000\nProcessing by SurveysController#index as HTML\n  Parameters: {\"inbox_id\"=>\"13\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-05-31 10:32:28 +0000'
+  error_status: '401'
+  environment: production
+id_71:
+  entry: "Started PUT \"/questions/1096\" for 221.112.142.226 at 2013-05-31 13:57:24 +0000\nProcessing by QuestionsController#update as HTML\n  Parameters: {\"utf8\"=>\"b\x1c\x13\", \"authenticity_token\"=>\"aHZ3UYZMhWA95OUzJ/Vq2Br3gIZLtao3v1fRc6SI14Q=\", \"question\"=>{\"question_type\"=>\"1\", \"creative_chain_attributes\"=>{\"creative_id\"=>\"\", \"id\"=>\"6440\"}, \"sentence\"=>\"h)\x15d>!c\x01\x19c\x02\ve/>h1!h\0\x05c\x02\x12c\x012c\x01(c\x02\ni\x018f\n\x1ec\x01\x17c\x01&c\x01\x0fc\x01 c\x01\x15c\x01\x04c\0\x02\", \"description\"=>\"\", \"sub_items_attributes\"=>{\"0\"=>{\"id\"=>\"3590\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x11\"}, \"1\"=>{\"id\"=>\"3608\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x12\"}, \"2\"=>{\"id\"=>\"3609\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"3\"}, \"3\"=>{\"id\"=>\"3610\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x14\"}, \"1370008629059\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x15\"}, \"1370008630540\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x16\"}, \"1370008631661\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x17\"}, \"1370008633046\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x18\"}, \"1370008633598\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x19\"}, \"1370008634988\"=>{\"id\"=>\"\", \"_destroy\"=>\"false\", \"answer_type\"=>\"1\", \"sentence\"=>\"o<\x11o<\x10\"}, \"4\"=>{\"_destroy\"=>\"1\", \"id\"=>\"3611\"}, \"5\"=>{\"_destroy\"=>\"1\", \"id\"=>\"3612\"}}, \"placeholder\"=>\"\", \"is_shuffle\"=>\"0\", \"is_range\"=>\"0\", \"range_min\"=>\"0\"}, \"radio\"=>\"on\", \"destination\"=>\"https://creativesurvey.com/questions/1100/duplicate\", \"id\"=>\"1096\"}\nCompleted 404 Not Found in 46ms\n\nActiveRecord::RecordNotFound (Couldn't find SubItem with ID=3611 for Question with ID=1096):\n  app/controllers/questions_controller.rb:146:in `block in update'\n  app/controllers/questions_controller.rb:145:in `update'\n  app/controllers/application_controller.rb:38:in `scope_current_inbox'\n\n\n"
+  timestamp:
+    - '2013-05-31 13:57:24 +0000'
+  error_status: '404'
+  environment: production

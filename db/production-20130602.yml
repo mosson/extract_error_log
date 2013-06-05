@@ -1,0 +1,36 @@
+id_72:
+  entry: "Started GET \"/inboxes/13/surveys\" for 126.253.99.241 at 2013-06-01 06:50:04 +0000\nProcessing by SurveysController#index as HTML\n  Parameters: {\"inbox_id\"=>\"13\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-06-01 06:50:04 +0000'
+  error_status: '401'
+  environment: production
+id_73:
+  entry: "Started GET \"/users/sign_in\" for 126.253.99.241 at 2013-06-01 06:50:04 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-06-01 06:50:04 +0000'
+  error_status: '401'
+  environment: production
+id_74:
+  entry: "Started GET \"/inboxes/13/surveys\" for 126.253.99.241 at 2013-06-02 00:23:47 +0000\nProcessing by SurveysController#index as HTML\n  Parameters: {\"inbox_id\"=>\"13\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-06-02 00:23:47 +0000'
+  error_status: '401'
+  environment: production
+id_75:
+  entry: "Started GET \"/users/sign_in\" for 126.253.99.241 at 2013-06-02 00:23:47 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-06-02 00:23:47 +0000'
+  error_status: '401'
+  environment: production
+id_76:
+  entry: "Started GET \"/inboxes/13/surveys\" for 126.253.99.241 at 2013-06-02 00:23:56 +0000\nProcessing by SurveysController#index as HTML\n  Parameters: {\"inbox_id\"=>\"13\"}\nCompleted 401 Unauthorized in 1ms\n"
+  timestamp:
+    - '2013-06-02 00:23:56 +0000'
+  error_status: '401'
+  environment: production
+id_77:
+  entry: "Started GET \"/users/sign_in\" for 126.253.99.241 at 2013-06-02 00:23:56 +0000\nProcessing by SessionsController#new as HTML\nFilter chain halted as :basic_auth rendered or redirected\nCompleted 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)\n"
+  timestamp:
+    - '2013-06-02 00:23:56 +0000'
+  error_status: '401'
+  environment: production

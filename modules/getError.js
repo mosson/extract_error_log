@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-var getError = function() {
+var errors = function(readFile, writeFile) {
 
 	var fs  = require('fs');
-	var _   = require('underscore');
+	var _   = require('../node_modules/underscore');
 
-	var ascii_data = fs.readFileSync(process.argv[2], 'ascii');
-	var errors = _.compact( _.map( ascii_data.match(/^Started[\s\S]+?(?=^Started)/mg).slice(1), function(matched){
+	var ascii_data = fs.readFileSync(readFile, 'ascii');
+	var data = _.compact( _.map( ascii_data.match(/^Started[\s\S]+?(?=^Started)/mg).slice(1), function(matched){
 		
 	  if( /Completed\s[45]/.test(matched) ){
 	      return matched;
@@ -15,8 +15,8 @@ var getError = function() {
 	  }	
 	}) );
 
-	fs.writeFileSync(process.argv[3], errors, 'ascii');
+	fs.writeFileSync(writeFile, data, 'ascii');
 
 }
 
-module.exports = getError;
+module.exports = errors;

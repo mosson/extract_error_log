@@ -1,0 +1,12 @@
+PRODUCTION_USER:
+  4dadmin
+STAGING_USER:
+  4dadmin
+PATH_TO_PRODUCTION:
+  ec2-175-41-196-217.ap-northeast-1.compute.amazonaws.com
+PATH_TO_STAGING:
+  54.249.225.121
+PATH_TO_LOGS:
+  /var/www/rails/CREATIVESURVEY/current/log/*.gz
+PATH_TO_NGINX_LOGS:
+  /var/log/nginx/*.gz

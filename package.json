@@ -2,6 +2,13 @@
   "name": "survey-logs",
   "version": "0.0.0",
   "devDependencies": {
-  	"sugar": "~1.3.8"
-	}
+    "sugar": "",
+    "scp": "",
+    "underscore": "~1.4.4",
+    "path": "",
+    "fs.extra": "",
+    "yamljs" : ""
+  },
+  "dependencies": {    
+  }
 }
