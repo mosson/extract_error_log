@@ -18,6 +18,6 @@ backup
 report
 
 conf/conf.yml
-db
+db/
 
 node_modules
