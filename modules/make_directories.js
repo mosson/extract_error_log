@@ -1,13 +1,11 @@
 #!/usr/bin/env node
 
-module.exports = function make_directories(path_to_dir, date_dir) {
+module.exports = function make_directories(path_to_dir) {
 
   var fs      = require('fs'),
       sugar   = require('sugar'),
       _       = require('underscore'),
       path    = require('path')
-
-  var envs    = ["production", "staging"]
 
   fs.mkdirParent = function(dirPath, mode, callback) {
     fs.mkdir(dirPath, mode, function(error) {
@@ -19,9 +17,9 @@ module.exports = function make_directories(path_to_dir, date_dir) {
     });
   };
 
-  _.each(envs, function(env) {
-    fs.mkdirParent(path_to_dir + "/backup/" + env + "/" + date_dir + "/nginx")
-    fs.mkdirParent(path_to_dir + "/backup/" + env + "/" + date_dir + "/unicorn")
+  _.each(path_to_dir, function(path_to_date_dir) {
+    fs.mkdirParent(path_to_date_dir + "/nginx")
+    fs.mkdirParent(path_to_date_dir + "/unicorn")
   })
 }
 
