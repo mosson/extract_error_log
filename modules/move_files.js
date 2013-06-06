@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-module.exports 		= function cron_mv(path_to_dir, date_dir) {
-	var fs					= require('fs.extra');
-	var _ 					= require('underscore')		
-	var which_env		= ["production", "staging"]	
-	
-	var pattern = [/(access.log-)|(error.log-)/, /(unicorn.log-)/]
+module.exports 		= function move_files(path_to_dir, date_dir) {
+	var fs					= require('fs.extra'),
+			_ 					= require('underscore')
 
-	_.each(which_env, function(env) {
+	var envs				= ["production", "staging"],
+			pattern 		= [/(access.log-)|(error.log-)/, /(unicorn.log-)/]
+
+	_.each(envs, function(env) {
 		
 		var path_to_env = path_to_dir + "/backup/" + env + "/" + date_dir
 		
