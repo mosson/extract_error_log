@@ -17,9 +17,21 @@ module.exports = function make_directories(path_to_dir) {
     });
   };
 
-  _.each(path_to_dir, function(path_to_date_dir) {
-    fs.mkdirParent(path_to_date_dir + "/nginx")
-    fs.mkdirParent(path_to_date_dir + "/unicorn")
-  })
+  option = process.argv[3]
+  
+  switch (option) {
+    case "backup":
+      _.each(path_to_dir, function(path_to_date_dir) {
+        fs.mkdirParent(path_to_date_dir + "/nginx")
+        fs.mkdirParent(path_to_date_dir + "/unicorn")
+      })
+      break
+
+    case "report":
+      _.each(path_to_dir, function(path_to_date_dir) {
+        fs.mkdirParent(path_to_date_dir)
+      })
+      break
+  }
 }
 

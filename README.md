@@ -33,35 +33,24 @@ conf.ymlに設定を記述して、conf.rbで環境変数に入れます。
 自分の環境の環境変数に指定されたものはcron_scpにて使用されます。
 
 
-
 # Usage
 
 ```
 $ ./main.js [module_name]
 ```
 
-
 # Modules
 
-
-
-## concat_files.js
-複数のファイルを1つにまとめます。
+## backup_logs
+ログを環境からセキュアコピーします。
 
 ```
-$ ./concat_files.js concat_files [import] [import] .. [import]
-```
-imort : 入力ファイル名
-
-
-## getErrors.js
-40xと50xのステータスコードを含むエラーログを抽出します。
-
-file : 入力ファイル名
-export : 出力ファイル名
-
-```
-./getErrors.js [import] [export]
+$ ./main.js backup_logs
 ```
 
+## export_report
+レポートを作成します。
 
+```
+$ ./main.js export_report [import] [export]
+```
