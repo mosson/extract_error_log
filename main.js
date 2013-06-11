@@ -1,39 +1,23 @@
 #!/usr/bin/env node
-var _  										 = require ('underscore'),
-		sugar									 = require ('sugar'),
+var _  										 = require ('underscore'),		
 		path 									 = require ('path'),
+		$ 										 = require ('jquery')
 		
-		gunzip_and_unlink 		 = require ('./modules/gunzip_and_unlink'),
-		make_directories			 = require ('./modules/make_directories'),
-		secure_copy						 = require ('./modules/secure_copy'),
-		move_files						 = require ('./modules/move_files'),
-		create_migration_files = require ('./modules/create_migration_files')
-
-var concat_files 					 = require ('./modules/concat_files'),
+var backup_logs   				 = require ('./modules/backup_logs'),
+		create_migration_files = require ('./modules/create_migration_files'),
+		concat_files 					 = require ('./modules/concat_files'),
 		decoration_file   		 = require ('./modules/decoration_file'),
-		decoration_html   		 = require ('./modules/decoration_html'),
-		path_adapter					 = require ('./modules/path_adapter')
+		decoration_html   		 = require ('./modules/decoration_html')
+		path_factory					 = require ('./modules/path_factory')
 
 _.map(process.argv, function(command) {
 	switch (command) {
-		case "gunzip_and_unlink":
-			gunzip_and_unlink(path_adapter())
+		case "backup_logs" :		
+			backup_logs()
 			break
 
-		case "make_directories":
-			make_directories(path_adapter())
-			break
-		
-		case "secure_copy":
-			secure_copy(path_adapter())
-			break
-
-		case "move_files":
-			move_files(path_adapter())
-			break
-	
 		case "create_migration_files":
-			create_migration_files(path_adapter)
+			create_migration_files(path_factory())
 			break
 
 		case "concat_files":
@@ -52,4 +36,7 @@ _.map(process.argv, function(command) {
 			decoration_html(command)
 			break
 	}
+
+
 })
+
