@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-module.exports 	 = function path_adapter() {	
+module.exports 	 = function path_factory() {	
 	var _ 		  	 = require('underscore'),
-			path       = require('path')
+			path       = require('path'),
+			sugar			 = require ('sugar')
 
 	var path_array 			= [],
 			formated_date		= Date.create().format('{yyyy}{MM}'),
