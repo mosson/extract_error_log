@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 module.exports = function backup_logs () {
 
-	var gunzip_and_unlink = require ('./gunzip_and_unlink'),
-			make_directories	= require ('./make_directories'),
-			secure_copy				= require ('./secure_copy'),
-			move_files				= require ('./move_files'),
-			path_factory			= require ('./path_factory')
+	var gunzip_and_unlink = require ('./lib/gunzip_and_unlink'),
+			make_directories	= require ('./lib/make_directories'),
+			secure_copy				= require ('./lib/secure_copy'),
+			move_files				= require ('./lib/move_files'),
+			path_factory			= require ('./lib/path_factory')
 
 	var $ 								= require ('jquery'),
 			deferred 					= $.Deferred()

@@ -8,7 +8,7 @@ var backup_logs   				 = require ('./modules/backup_logs'),
 		concat_files 					 = require ('./modules/concat_files'),
 		decoration_file   		 = require ('./modules/decoration_file'),
 		decoration_html   		 = require ('./modules/decoration_html')
-		path_factory					 = require ('./modules/path_factory')
+		// path_factory					 = require ('./modules/lib/path_factory')
 
 _.map(process.argv, function(command) {
 	switch (command) {

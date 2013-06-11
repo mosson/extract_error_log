@@ -7,7 +7,7 @@ module.exports 	 = function path_factory() {
 
 	var path_array 			= [],
 			formated_date		= Date.create().format('{yyyy}{MM}'),
-			base_path 			= path.dirname(__dirname),
+			base_path 			= path.resolve(__dirname, "../.."),
 			envs     	 			= ["production", "staging"]
 
 
@@ -18,5 +18,3 @@ module.exports 	 = function path_factory() {
 	})
 	return path_array	
 }
-
-
