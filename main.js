@@ -13,9 +13,6 @@ var module_type = process.argv[2]
 var opt1			  = process.argv[3]
 var opt2			  = process.argv[4]
 
-// console.log(path_factory(opt1));
-// console.log(opt1)
-
 _.map(process.argv, function(module_type) {
 	switch (module_type) {
 		case "backup_logs" :		
