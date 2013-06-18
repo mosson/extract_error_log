@@ -30,15 +30,13 @@ _.map(process.argv, function(module_type) {
 			make_directories(path_factory(opt1))
 			break
 
-		
-
-
 		case "path_factory" :
 			path_factory(opt1)
 			break
-		// case "create_migration_files" :
-		// 	create_migration_files(path_factory())
-		// 	break
+		
+		case "create_migration_files" :
+			create_migration_files(path_factory("backup"), opt1)
+			break
 	}
 
 })

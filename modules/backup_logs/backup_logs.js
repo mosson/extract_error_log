@@ -29,7 +29,6 @@ module.exports = function backup_logs (path_from_factory) {
 				console.log("move_files Done")				
 			})
 									
-		deferred.done()
 	  deferred.resolve();
 }
 
