@@ -1,15 +1,16 @@
 {
-  "name": "survey-logs",
-  "version": "0.0.0",
-  "devDependencies": {
-    "sugar": "",
-    "scp": "",
-    "underscore": "~1.4.4",
-    "path": "",
-    "fs.extra": "",
-    "yamljs" : "",
-    "jquery" : ""
+  "name"            : "survey-logs",
+  "version"         : "0.0.0",
+  "devDependencies" : {
+    "sugar"         : "",
+    "scp"           : "",
+    "underscore"    : "~1.4.4",
+    "path"          : "",
+    "fs.extra"      : "",
+    "yamljs"        : "",
+    "jquery"        : "",
+    "ejs"           : ""
   },
-  "dependencies": {    
+  "dependencies"    : {    
   }
 }
