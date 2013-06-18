@@ -54,3 +54,12 @@ $ ./main.js backup_logs
 ```
 $ ./main.js export_report [import] [export]
 ```
+
+
+## create_migration_files
+マイグレーションファイルを作成します。
+
+
+```
+$ ./main.js create_migration_files [environment]
+```

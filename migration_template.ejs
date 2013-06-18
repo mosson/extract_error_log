@@ -1,0 +1,1 @@
+<% entries.forEach (function(log) {  %>Log.create(entry: "<%= log[0].replace(/\n|\r/gim, "\\n") %>", timestamp: "<%= log[1] %>", error_status: <%= log[2] %>, environment: "<%= env %>");<% }) %>
