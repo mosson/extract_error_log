@@ -6,10 +6,10 @@ module.exports = function backup_logs (path_from_factory) {
 			move_files				= require ('./lib/move_files')					
 
 	var $ 								= require ('jquery'),
-			deferred 					= $.Deferred()
+			dfd 					= $.Deferred()
 			
 		// これを実現するやり方を考える
-		deferred			
+		dfd			
 			.then(function(arg) {		
 				setTimeout(function() {
 					secure_copy(path_from_factory)
@@ -29,6 +29,6 @@ module.exports = function backup_logs (path_from_factory) {
 				console.log("move_files Done")				
 			})
 									
-	  deferred.resolve();
+	  dfd.resolve();
 }
 

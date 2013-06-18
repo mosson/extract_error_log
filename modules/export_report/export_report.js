@@ -7,7 +7,7 @@ module.exports = function export_report(path_to_files) {
 			decoration_data 	= require ('./lib/decoration_data')
 
 	var $ 								= require ('jquery'),
-			deferred 					= $.Deferred(),
+			dfd 					= $.Deferred(),
 			_									= require ('underscore'),
 			fs 								= require ('fs')			
 			
