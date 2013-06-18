@@ -1,56 +1,32 @@
 #!/usr/bin/env node
 module.exports = function export_report(path_to_files) {
 
-	var concat_files 			= require ('./lib/concat_files'),
-			decoration_file   = require ('./lib/decoration_file'),
-			decoration_html   = require ('./lib/decoration_html'),
-			decoration_data 	= require ('./lib/decoration_data')
+	var decoration_data 	= require ('./lib/decoration_data');
+	var extract_errors		= require ('./lib/extract_errors');
+	var decorate_and_extract = require ('./lib/decorate_and_extract');
 
-	var $ 								= require ('jquery'),
-			dfd 					= $.Deferred(),
-			_									= require ('underscore'),
-			fs 								= require ('fs')			
-			
-			_.each(path_to_files, function(files) {
-				var import_files = files[0]
-				var export_files = files[1]
+	var $ 								= require ('jquery');
+	var _									= require ('underscore');
+	var fs 								= require ('fs');
+							
+	var production_files  = path_to_files[0];
+	var staging_files		  = path_to_files[1];
+
+	var import_index 		  = 0;
+	var export_index      = 1;
+
+	console.log(production_files[import_index].add(staging_files[import_index]));
+
+	var import_files = production_files[import_index].add(staging[import_index]);
+	var export_files = production_files[export_index].add(staging_files[export_index]);
+
+	_(import_files.length).times(function(n) {
+		data = fs.readFileSync(import_files[n], "ascii");
 				
-			})
-
-	// _.each(importFile, function(dirs) {
-	// 	files = fs.readdirSync(dirs)	
-	// 	_.each(files, function(file) {			
-	// 		// var ascii_data = fs.readFileSync(file, 'ascii')
-	// 		// console.log(decoration_data(ascii_data))
-	// 		console.log(dirs)
-
-	// 	})
-		
-	// })
-	
-
-	// _.each(files, function(file) {
-		
-		// console.log(file.match(/(log-[0-9]{8})/))
-
-	// })
-
-	// switch(command)
-	// 	case "concat_files":
-	// 		concat_files(command)
-	// 		break
-		
-	// 	case "concat_files:decorate":
-	// 		decoration_data(concat_files(command))
-	// 		break
+		decorated_data = decorate_and_extract(data);
 				
-	// 	case "decoration_file":
-	// 		decoration_file(command)
-	// 		break
-	
-	// 	case "decoration_html":
-	// 		decoration_html(command)
-	// 		break
-			// console.log(importFile)
+		fs.writeFileSync(export_files[n], decorated_data, "ascii");
+
+	})
 }
 
