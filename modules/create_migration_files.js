@@ -36,16 +36,14 @@ module.exports = function create_migration_files(path_to_dir, env) {
 
 					}
 				}))
+				
+				data = fs.readFileSync('migration_template_exception.ejs', 'ascii');									
 
-				data = fs.readFileSync('migration_template.ejs', 'ascii');									
-
+				
 				renderd = ejs.render(data, {entries: entries, env: env});
-				// renderd = renderd.replace(/\n|\r/gim, "\\n");
-				// renderd = renderd.replace(/(\\n)+Log/,"Log");
-				// renderd = renderd.replace(/;(\\n)+/, ";");
 
 				if (read_file.match(/[0-9]{8}/)) {
-					fs.appendFileSync("db/" + env + "-" + read_file.slice(-8) + ".rb", renderd);
+					fs.appendFileSync("db/" + env + "-" + read_file.slice(-8) + ".erb", renderd);
 					console.log(renderd);
 				}
 			}				
