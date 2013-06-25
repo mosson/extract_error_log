@@ -1,4 +1,0 @@
-<% entries.forEach (function(log) {  %>
-<%- "<% " %>begin;Log.create(entry: "<%= log[0].replace(/\n|\r/gim, "\\n").replace(/\#{/gim, "\\#{") %>", timestamp: "<%= log[1] %>", error_status: <%= log[2] %>, environment: "<%= env %>");<%- " %" %><%- ">" %>
-<%- "<% " %>rescue ActiveRecord::RecordNotUnique => e; puts e; end<%- " %" %><%- ">" %>
-<% }) %>
