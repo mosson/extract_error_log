@@ -3,12 +3,12 @@ module.exports = function backup_logs (path_from_factory) {
 
 	var gunzip_and_unlink = require ('./lib/gunzip_and_unlink'),
 			secure_copy				= require ('./lib/secure_copy'),
-			move_files				= require ('./lib/move_files')					
+			move_files				= require ('./lib/move_files'),
+			validate_time 		= require ('./lib/validate_time')
 
 	var $ 								= require ('jquery'),
 			dfd 							= $.Deferred()
 			
-		// これを実現するやり方を考える
 		dfd			
 			.then(function(arg) {		
 				setTimeout(function() {
@@ -26,6 +26,11 @@ module.exports = function backup_logs (path_from_factory) {
 				setTimeout(function() {
 					move_files(path_from_factory)
 				}, 3000)				
+				console.log("move_files Done")
+			}).then(function(arg) {
+				setTimeout(function() {
+					validate_time(path_from_factory)
+				}, 4000)				
 				console.log("move_files Done")
 			})
 									
