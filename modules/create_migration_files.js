@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 module.exports = function create_migration_files(path_to_dir, env) {
 	var fs  				 = require('fs');
-	var _   				 = require('../node_modules/underscore');
+	var _   				 = require('underscore');
 	var YAML 				 =	require('yamljs');
 	var ejs					 = require('ejs');	
     
