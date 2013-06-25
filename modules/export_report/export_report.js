@@ -19,9 +19,10 @@ module.exports = function export_report(path_to_files) {
 
 
 	_(import_files.length).times(function(n) {
-		data = fs.readFileSync(import_files[n], "ascii");
-				
-		decorated_data = decoration_data(data);
+		var data = fs.readFileSync(import_files[n], "ascii");
+		
+		var decorated_data = decoration_data(data);
+		decorated_data = extract_errors(decorated_data)
 				
 		console.log(decorated_data);
 		fs.writeFileSync(export_files[n], decorated_data, "ascii");

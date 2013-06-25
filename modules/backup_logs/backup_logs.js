@@ -27,7 +27,8 @@ module.exports = function backup_logs (path_from_factory) {
 					move_files(path_from_factory)
 				}, 3000)				
 				console.log("move_files Done")
-			}).then(function(arg) {
+			})
+			.then(function(arg) {
 				setTimeout(function() {
 					validate_time(path_from_factory)
 				}, 4000)				
