@@ -15,7 +15,7 @@ npm-debug.log
 
 backup
 report
-
+conf/s3_conf.json
 conf/conf.yml
 db/
 
