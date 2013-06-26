@@ -32,23 +32,10 @@ module.exports 	 = function path_factory(usage) {
 			
 		var path_to_files = [arr_backup_files, arr_report_files]
 		
-		switch (usage) {
-			case "backup" :
-				return path_to_backup
-				break
-			
-			case "report" :
-				return path_to_report
-				break
+		return eval("path_to_" + usage)
 
-			case "path_to_files" :
-				return path_to_files
-				break
-			
-			default :
-				console.log("Invalid arguments specified.")
-			}
 		}
 	)
+
 	return path_to_dir
 }
