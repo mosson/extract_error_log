@@ -6,7 +6,7 @@ module.exports = function create_migration_files(path_to_dir, env) {
 	var ejs					 = require('ejs');	
     
 	var i 					 = 0;
-	var template 		 = 'db/migration_template_exception.ejs';
+	var template = 'db/csv_template.ejs';
 			
 	if (env == "production") {
 		read_dir = path_to_dir[0]
@@ -43,9 +43,10 @@ module.exports = function create_migration_files(path_to_dir, env) {
 				
 				renderd = ejs.render(data, {entries: entries, env: env});
 
+
 				if (read_file.match(/[0-9]{8}/)) {
-					fs.appendFileSync("db/migration/" + env + "-" + read_file.slice(-8) + ".erb", renderd);
-					console.log(renderd);
+					fs.appendFileSync("db/migration/" + env + "-" + read_file.slice(-8) + ".csv", _.unescape(renderd));
+					console.log(_.unescape(renderd));
 				}
 			}				
 		})
