@@ -27,8 +27,7 @@ module.exports = function create_migration_files(path_to_dir, env) {
 						var entry = matched
 						var timestamp = matched.match(/[0-9]{4}-([0-9]{2}-?){2}\s([0-9]{2}:?){3}\s\+[0-9]{4}/mg)
 						var error_status = matched.match(/(Completed\s)[0-9]{3}/gm)[0].slice(10)
-						var ip_address = matched.match(/([0-9]{1,3}\.?){4}(?=\sat)/)
-
+						var ip_address = matched.match(/([0-9]{1,3}\.?){4}(?=\sat?)/)[0]
 						entries = [entry, timestamp, error_status, ip_address]
 						return entries
 
@@ -39,7 +38,7 @@ module.exports = function create_migration_files(path_to_dir, env) {
 					}
 				}))
 				
-				data = fs.readFileSync(template, 'ascii');									
+				data = fs.readFileSync(template, 'ascii');
 
 				
 				renderd = ejs.render(data, {entries: entries, env: env});
@@ -49,6 +48,7 @@ module.exports = function create_migration_files(path_to_dir, env) {
 					fs.appendFileSync("db/migration/" + env + "-" + read_file.slice(-8) + ".csv", _.unescape(renderd));
 					console.log(_.unescape(renderd));
 				}
+
 			}				
 		})
 	})	
