@@ -27,8 +27,9 @@ module.exports = function create_migration_files(path_to_dir, env) {
 						var entry = matched
 						var timestamp = matched.match(/[0-9]{4}-([0-9]{2}-?){2}\s([0-9]{2}:?){3}\s\+[0-9]{4}/mg)
 						var error_status = matched.match(/(Completed\s)[0-9]{3}/gm)[0].slice(10)
+						var ip_address = matched.match(/([0-9]{1,3}\.?){4}(?=\sat)/)
 
-						entries = [entry, timestamp, error_status]
+						entries = [entry, timestamp, error_status, ip_address]
 						return entries
 
 					} else {

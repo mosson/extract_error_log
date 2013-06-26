@@ -19,7 +19,7 @@ module.exports 	 = function path_factory(usage) {
 		
 
 		var arr_backup_files = _.compact(_.map(fs.readdirSync(path_to_backup), function (file) {
-			if (file.match(/(log-[0-9]{8})/)) {
+			if (file.match(/(log-[0-9]{8}$)/)) {
 					return path_to_backup + "/" + file
 				} else {
 					return null
