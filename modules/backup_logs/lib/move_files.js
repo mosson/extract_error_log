@@ -9,7 +9,7 @@ module.exports 		= function move_files(path_to_dir) {
 
 	_.each(path_to_dir, function(path_to_date_dir) {
 
-		fs.readdir(path_to_date_dir, function(err, files) {			
+		fs.readdir(path_to_date_dir, function moveFiles(err, files) {			
 			if (err) { console.log (err) }
 
 			_.each(files, function(file) {
@@ -17,7 +17,7 @@ module.exports 		= function move_files(path_to_dir) {
 				if (file.match(pattern_nginx)) {
 					
 					fs.move (path_to_date_dir + "/" + file , path_to_date_dir + "/nginx/" + file , function (err) {
-			    	if (err) { throw err; }
+			    	if (err) { throw "Couldn't move files"; }
 				    console.log ("Nginx Logs successfully moved: " + path_to_date_dir + "/nginx/" + file);
 					});						
 
@@ -26,7 +26,7 @@ module.exports 		= function move_files(path_to_dir) {
 				else if (file.match(pattern_unicorn)) {
 
 					fs.move (path_to_date_dir + "/" + file , path_to_date_dir + "/unicorn/" + file , function (err) {
-			    	if (err) { throw err; }
+			    	if (err) { throw "Couldn't move files."; }
 				    console.log ("Unicorn Logs successfully moved: " + path_to_date_dir + "/nginx/" + file);
 
 					});
@@ -34,4 +34,11 @@ module.exports 		= function move_files(path_to_dir) {
 			})					
 		})
 	})
+
+	try {
+		moveFiles();
+	} catch(err) {
+		console.log(err)
+	}
+
 }
