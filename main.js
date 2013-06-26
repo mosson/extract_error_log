@@ -13,27 +13,40 @@ var module_type = process.argv[2]
 var opt1			  = process.argv[3]
 var opt2			  = process.argv[4]
 
+function validate_options(argv) {
+	if (opt1 != "backup" && "report" && "production") { 
+		throw "Unexpected module type" 
+	}
+}
+
+try {
+	validate_options(process.argv)
+} catch(err) {
+	console.log(err)
+}
+
 _.map(process.argv, function(module_type) {
 	switch (module_type) {
-		case "backup_logs" :		
+		case "backup_logs" :
 			backup_logs(path_factory("backup"))
 			break
 
 		case "export_report" :
-			export_report(path_factory("path_to_files"))
+			export_report(path_factory("files"))
 			break
 		
 		case "make_directories" :
 			make_directories(path_factory(opt1))
 			break
 
-		case "path_factory" :
-			path_factory(opt1)
-			break
-		
 		case "create_migration_files" :
 			create_migration_files(path_factory("backup"), opt1)
 			break
+
+		case "path_factory" :
+			path_factory(path_factory(opt1))
+			break
+		
 	}
 
 })
