@@ -11,6 +11,8 @@ module.exports 	 = function path_factory(usage) {
 	var base_path 			= path.resolve(__dirname, "..");
 	var envs     	 			= ["production", "staging"];
 
+	var nginx_path			= "/usr/local/var/www/"
+
 	var path_to_dir 		= _.map(envs, function(env) {
 		var path_to_backup  = base_path + "/backup/" + env + "/" + formated_date;
 		var path_to_report  = base_path + "/report/" + env + "/" + formated_date;

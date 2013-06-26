@@ -24,8 +24,8 @@ module.exports = function export_report(path_to_files) {
 		var decorated_data = decoration_data(data);
 		decorated_data = extract_errors(decorated_data)
 				
-		console.log(decorated_data);
-		fs.writeFileSync(export_files[n], decorated_data, "ascii");
+		console.log(_.unescape(decorated_data));
+		fs.writeFileSync(export_files[n], _.unescape(decorated_data), "ascii");
 
 	})
 }
